@@ -12,7 +12,6 @@
 
 //Theromcouple Libraries
 #include "Adafruit_MAX31855.h"
-#include <rn2xx3.h>
 
 //Motor Library
 #include <Servo.h>
