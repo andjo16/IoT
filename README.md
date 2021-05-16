@@ -12,6 +12,6 @@ The following library has been used for the ardiuno programs
 - LoRaWAN communication: MCCI LoRaWAN LMIC (V3.3.0)  
 	Can be found in ardiuno library manager  
 	Also available here: https://www.arduino.cc/reference/en/libraries/mcci-lorawan-lmic-library/
-- Thermocouple module MAX31855: Adafruit MAX31855 Library (V1.3.0) 
+- Thermocouple module MAX31855: Adafruit MAX31855 Library (V1.3.0)  
 	Can be found in arduino library manager
 	
