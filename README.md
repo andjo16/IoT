@@ -7,9 +7,9 @@ The ardiuno code for the LoRa end-devices is given as
 - ???
 
 The following library has been used for the ardiuno programs
-- Servo control: https://github.com/RoboticsBrno/ServoESP32 
+- Servo control: https://github.com/RoboticsBrno/ServoESP32  
   has to be installed from zip file
-- LoRaWAN communication: MCCI LoRaWAN LMIC
-	can be found in ardiuno library manager (V3.3.0)
+- LoRaWAN communication: MCCI LoRaWAN LMIC  
+	can be found in ardiuno library manager (V3.3.0)  
 	Also available here: https://www.arduino.cc/reference/en/libraries/mcci-lorawan-lmic-library/
 	
