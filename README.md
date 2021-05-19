@@ -2,9 +2,9 @@
 
 
 The ardiuno code for the LoRa end-devices is given as
-- LightSwitchFinal.ino
-- PeopleCounter_v1.ino
-- Ventilation_device.ino
+- LightSwitch.ino
+- PeopleCounter.ino
+- VentilationControl.ino
 
 The following library has been used for the ardiuno programs
 - Servo control: https://github.com/RoboticsBrno/ServoESP32  
@@ -24,7 +24,7 @@ The backend uses the following libraries:
  - SQLAlchemy
  - psycopg2
 
-To run locally:
+To run it, Python 3 is needed. To run locally, execute the following commands:
 ```
 python -m venv venv
 source venv/bin/activate
