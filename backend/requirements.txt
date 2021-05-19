@@ -1,0 +1,6 @@
+fastapi==0.63.0
+uvicorn==0.13.4
+asyncio-mqtt==0.8.1
+websockets==8.1
+SQLAlchemy==1.4.11
+psycopg2==2.8.6

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Project</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="plotly-latest.min.js"></script>
+	<script src="http_helper.js"></script>
+</head>
+<body>
+	<h1>IoT Project - Ceramics Club</h1>
+	<div class="wrapper">
+		<div class="leftContainer">
+			<h2> Temperature</h2>
+			<div id="tempChart"></div>
+		</div>
+
+		<div class="rightContainer">
+
+			<div class="horizontal">
+				<h2> Number of people</h2>
+				<div id="numberPeople" class="status"></div>
+			</div>
+
+			<div class="horizontal">
+				<h2>Lights</h2>
+				<div id="lightDiv">
+					<div id=workshopDiv>
+						<h4>Workshop</h4>
+						<div id="workshopState" class="status"></div>
+						<div style="text-align:center;">
+							<button type="button" id="workshopButton"></button>
+						</div>
+					</div>
+					<div id=loungeDiv>
+						<h4>Lounge</h4>
+						<div id="loungeState" class="status"></div>
+						<div style="text-align:center;">
+							<button type="button" id="loungeButton"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="horizontal">
+				<h2>Ventilation</h2>
+				<div id="ventilationState" class="status"></div>
+				<div style="text-align:center;">
+					<button type="button" id="ventilationButton"></button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<script src="render_ui.js"></script>
+</body>
+</html>

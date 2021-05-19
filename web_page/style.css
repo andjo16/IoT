@@ -1,0 +1,68 @@
+body {
+	background-color: #c4ccb8;
+	padding: 20px 50px 0px;
+}
+
+h1,h2 {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+	align: center;
+}
+
+.horizontal h2 {
+	text-align: start;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.leftContainer {
+	background-color: #ffffff;
+	float: left;
+	align: center;
+	width: 40%;
+	border: 1px solid black;
+}
+
+.rightContainer {
+	background-color: #ffffff;
+	float: right;
+	align: center;
+	width: 40%;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.horizontal {
+	margin: 0px 15px 20px;
+}
+
+#lightDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#workshopDiv {
+	float: left;
+	align: center;
+}
+
+#loungeDiv {
+	float: right;
+	align: center;
+}
+
+.status {
+	margin: 10px 0px;
+	font-size: 80px;
+	text-align: center;
+}
